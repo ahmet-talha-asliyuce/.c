@@ -1,0 +1,22 @@
+name: Ödev
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  assignment:
+    runs-on: ubuntu-latest
+    env:     { DISTRO_PATH: '.local/opt' }
+    steps:
+      - name: Getir 🛎️
+        uses: actions/checkout@v2.4.0
+
+      - name: Hazırla 🥁
+        uses: actions/checkout@v2
+        with: { repository: 'alaturka/linux', path: '${{ env.DISTRO_PATH }}' }
+
+      - name: Hazırla 🥁
+        run:  printf '%s\n%s\n' "$DISTRO_PATH"/bin "$DISTRO_PATH"/opt/self/usr/bin >>"$GITHUB_PATH"
+
+      - name: Notlandır 📝
+        uses: education/autograding@v1
