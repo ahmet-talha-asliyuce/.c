@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+DISTRO_PATH=.local/mnt
+
+[[ -d $DISTRO_PATH ]] || git clone https://github.com/alaturka/linux "$DISTRO_PATH"
+
+export PATH="$DISTRO_PATH"/bin:"$DISTRO_PATH"/opt/self/usr/bin:"$PATH"
+
+exec "$@"
