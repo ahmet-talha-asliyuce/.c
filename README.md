@@ -1,7 +1,16 @@
-<Ödev Başlığı>
+<!--
+  <ÖDEV BAŞLIĞI> VE <ÖDEV METNİ> ALANLARINI DOLDURUN, DİĞER KISIMLARA TERCİHEN DOKUNMAYIN. ÖDEV OLUŞTURMA SÜRECİ
+  https://classroom.alaturka.dev SAYFALARINDA AYRINTILI ANLATILMIŞTIR, LÜTFEN ÖNCE BU SAYFALARI OKUYUN.
+
+  DİKKAT!  DÜZENLEMENİZİ TAMAMLADIKTAN SONRA:
+
+  - BU AÇIKLAMA ÖBEĞİNİ KALDIRIN.
+  - DEPOYU ŞABLON OLARAK AYARLAYIN (Settings → Template Repository ✓)
+-->
+<ÖDEV BAŞLIĞI>
 ==============
 
-__Ödev metni__
+<ÖDEV METNİ>
 
 ---
 
@@ -14,4 +23,4 @@ __Ödev metni__
    edin.  C Programlama ödevlerinde dikkat etmeniz gereken hususları [okuyun](https://classroom.alaturka.dev).
 
 4. Depoda nokta ile başlayan dosya ve dizinlerde (ör. `.github`) **düzenleme yapmayın**.  Bu dosyalara yapılan
-   müdahaleler izlenmekte olup kurala uymayanların ödevleri geçersiz kabul edilecektir.
+   müdahaleler izlenmekte olup kurala uymayanların ödevleri geçersiz sayılacaktır.
