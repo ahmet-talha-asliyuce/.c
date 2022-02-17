@@ -1,0 +1,38 @@
+{
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap":       "on",
+  
+  "files.insertFinalNewline": true,
+  
+  "terminal.integrated.cwd":                    "${fileDirname}",
+  "terminal.integrated.defaultProfile.windows": "WSL",
+  "terminal.integrated.profiles.windows":       {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "WSL": {
+      "path": [
+        "${env:windir}\\System32\\wsl.exe"
+      ],
+      "args": [],
+      "icon": "terminal-ubuntu"
+    }
+  },
+  
+  "c.useLanguageServer": true,
+
+  "[c]": {
+    "editor.tabSize": 8,
+    "editor.insertSpaces": false,
+    "editor.detectIndentation":false
+  }
+}
