@@ -23,7 +23,7 @@
       "path": [
         "${env:windir}\\System32\\wsl.exe"
       ],
-      "args": [],
+      "args": ["--exec", "/bin/bash"],
       "icon": "terminal-ubuntu"
     }
   },
