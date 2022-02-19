@@ -1,6 +1,6 @@
 <!--
   <ÖDEV BAŞLIĞI> VE <ÖDEV METNİ> ALANLARINI DOLDURUN, DİĞER KISIMLARA TERCİHEN DOKUNMAYIN. ÖDEV OLUŞTURMA SÜRECİ
-  https://classroom.alaturka.dev SAYFALARINDA AYRINTILI ANLATILMIŞTIR, LÜTFEN ÖNCE BU SAYFALARI OKUYUN.
+  https://classroom.alaturka.dev/teach SAYFALARINDA AYRINTILI ANLATILMIŞTIR, LÜTFEN ÖNCE BU SAYFALARI OKUYUN.
 
   DİKKAT!  DÜZENLEMENİZİ TAMAMLADIKTAN SONRA:
 
@@ -14,13 +14,15 @@
 
 ---
 
-1. Başlamadan önce lütfen genel açıklamaları [okuyun](https://classroom.alaturka.dev).
-
-2. Dizinde bulacağınız [`assignment.c`](assignment.c) isimli şablon kodu düzenleyin.  **Dosyanın adını değiştirmeyin
+1. Dizinde bulacağınız [`assignment.c`](assignment.c) isimli şablon kodu düzenleyin.  **Dosyanın adını değiştirmeyin
    veya (aksi belirtilmedikçe) başka bir dosya açarak düzenleme yapmayın.**
 
-3. Yazdığınız kodun doğru çalışması yeterli değildir.  Kodlama stiline ve derste değinilen "doğru pratik"lere dikkat
-   edin.  Programlama ödevlerinde dikkat etmeniz gereken hususları [okuyun](https://classroom.alaturka.dev).
-
-4. Depoda nokta ile başlayan dosya ve dizinlerde (ör. `.github`) **düzenleme yapmayın**.  Bu dosyalara yapılan
+2. Depoda nokta ile başlayan dosya ve dizinlerde (ör. `.github`) **düzenleme yapmayın**.  Bu dosyalara yapılan
    müdahaleler izlenmekte olup kurala uymayanların ödevleri geçersiz sayılacaktır.
+
+3. Başlamadan önce lütfen [açıklamaları](https://classroom.alaturka.dev/guide/#odevler) okuyun.  Yanıtı bu dokümanlarda
+   kolayca bulunan sorulara dönüş yapılmayacaktır.
+
+4. Ödevle ilgili sorularınızı özelden yazmayın.  Olası bir cevabı öncelikle [ödev
+   forumunda](https://github.com/19/classroom/discussions/categories/%C3%B6dev) arayın ve gerekiyorsa yeni bir soru
+   oluşturun.
